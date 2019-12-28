@@ -1,0 +1,31 @@
+﻿@font-face {font-family: "iconfont";
+  src: url('../fonts/font_1423691_1fcfxbwa79n.eot'); /* IE9 */
+  src: url('../fonts/font_1423691_1fcfxbwa79n.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/font_1423691_1fcfxbwa79n.woff') format('woff'),
+  url('../fonts/font_1423691_1fcfxbwa79n.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('../fonts/font_1423691_1fcfxbwa79n.svg') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e691";
+}
+
+.icon-telegram:before {
+  content: "\e8db";
+}
+
+.icon-rss:before {
+  content: "\f09c";
+}
+
+.icon-mastodon:before {
+  content: "\f1ec";
+}
